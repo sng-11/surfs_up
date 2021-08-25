@@ -21,7 +21,7 @@ As shown from the above tables:
 
 As summarized in the above bullet points, Oahu seems like a decent location for a surf shop based on temperature data. The mean temperature stays fairly consistent even when comparing June and December. However, just relying on temperature data for 2 months is not enough. I would suggest the queries for the weather data of the month of July and August to be investigated also to further decide whether Oahu is a smart investment decision for a surf shop. These two months are chosen because the summer months are going to be where consumer traffic will be at its peak, with summer vacation and weather.
 
-_What is the temperature and precipitation like in the month of July?_
+_What is the temperatuer like in the month of July?_
 
 <img width="176" alt="Screen Shot 2021-08-25 at 5 41 52 PM" src="https://user-images.githubusercontent.com/84816495/130868601-0be806bf-b978-4956-90b1-a8b9a1aa1f4f.png">
 
@@ -33,7 +33,7 @@ jul_df = pd.DataFrame(jultemps, columns=['date','July Temperatures'])
 jul_df.describe()
 ```
 
-_What is the temperature and precipitation like in the month of August?_
+_What is the temperature like in the month of August?_
 
 <img width="188" alt="Screen Shot 2021-08-25 at 5 41 57 PM" src="https://user-images.githubusercontent.com/84816495/130868611-059ecda9-a6cb-4f4d-a7a9-afd030726cd2.png">
 
