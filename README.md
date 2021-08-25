@@ -19,4 +19,8 @@ As shown from the above tables:
 
 ## Summary
 
-As summarized in the above bullet points, Oahu seems like a decent location for a surf shop based on temperature data. The mean temperature stays fairly consistent even when comparing June and December. However, just relying on temperature data for 2 months is not enough. I would suggest the following queries to be investigated to further decide whether Oahu is a smart investment decision:
+As summarized in the above bullet points, Oahu seems like a decent location for a surf shop based on temperature data. The mean temperature stays fairly consistent even when comparing June and December. However, just relying on temperature data for 2 months is not enough. I would suggest the queries for the weather data of the month of July and August to be investigated also to further decide whether Oahu is a smart investment decision for a surf shop. These two months are chosen because the summer months are going to be where consumer traffic will be at its peak, with summer vacation and weather.
+
+_What is the temperature and precipitation like in the month of July?_
+
+_What is the temperature and precipitation like in the month of August?_
