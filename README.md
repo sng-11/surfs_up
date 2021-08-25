@@ -28,8 +28,11 @@ _What is the temperature and precipitation like in the month of July?_
 The following code was used to get the results:
 
 jultemps = []
+
 jultemps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 7).all()
+
 jul_df = pd.DataFrame(jultemps, columns=['date','July Temperatures'])
+
 jul_df.describe()
 
 _What is the temperature and precipitation like in the month of August?_
@@ -39,6 +42,9 @@ _What is the temperature and precipitation like in the month of August?_
 The following code was used to get the results:
 
 augtemps = []
+
 augtemps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 8).all()
+
 aug_df = pd.DataFrame(augtemps, columns=['date','August Temperatures'])
+
 aug_df.describe()
