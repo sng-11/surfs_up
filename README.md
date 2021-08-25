@@ -18,5 +18,5 @@ As shown from the above tables:
 3. The min temperatures in both June and December vary, with 64.0 and 56.0 respectively. While it is still comfortable enough to surf at June's coldest, it is quite cold at December's coldest. However, if the 50s are rare and occurring mainly in the winter months, then Oahu is still a good choice for a surf shop for the majority of the year.
 
 ## Summary
+
 As summarized in the above bullet points, Oahu seems like a decent location for a surf shop based on temperature data. The mean temperature stays fairly consistent even when comparing June and December. However, just relying on temperature data for 2 months is not enough. I would suggest the following queries to be investigated to further decide whether Oahu is a smart investment decision:
-- 
