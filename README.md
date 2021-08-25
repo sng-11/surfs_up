@@ -12,5 +12,9 @@ _December Weather Summary Statistics_
 
 <img width="207" alt="Screen Shot 2021-08-25 at 4 29 17 PM" src="https://user-images.githubusercontent.com/84816495/130860234-81702dfd-300d-4928-802d-5e13e6977d2f.png">
 
+As shown from the above tables:
+1. The mean temperatures between June and December are different but not significantly. June mean temperature is 74.94 degrees while December mean temperature is 71.04 degrees. Since both indicate an average within the 70s, good surfing temperature, it seems like Oahu is a decent location to set up a surf shop.
+2. The max temperatures in both June and December are fairly similar, with 85.0 and 83.0 respectively. This indicates that when the temperature does get hot, the most uncomfortable will be the mid 80s. Surfing can still be possible in this weather, albeit maybe requiring thinner surfing setsuits.
+3. The min temperatures in both June and December vary, with 64.0 and 56.0 respectively. While it is still comfortable enough to surf at June's coldest, it is quite cold at December's coldest. However, if the 50s are rare and occurring mainly in the winter months, then Oahu is still a good choice for a surf shop for the majority of the year.
 
-- 
+## Summary
