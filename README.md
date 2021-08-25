@@ -21,26 +21,26 @@ As shown from the above tables:
 
 As summarized in the above bullet points, Oahu seems like a decent location for a surf shop based on temperature data. The mean temperature stays fairly consistent even when comparing June and December. However, just relying on temperature data for 2 months is not enough. I would suggest the queries for the weather data of the month of July and August to be investigated also to further decide whether Oahu is a smart investment decision for a surf shop. These two months are chosen because the summer months are going to be where consumer traffic will be at its peak, with summer vacation and weather.
 
-_What is the temperatuer like in the month of July?_
+_What is the precipitation like in the month of July?_
 
-<img width="176" alt="Screen Shot 2021-08-25 at 5 41 52 PM" src="https://user-images.githubusercontent.com/84816495/130868601-0be806bf-b978-4956-90b1-a8b9a1aa1f4f.png">
+<img width="168" alt="Screen Shot 2021-08-25 at 5 50 50 PM" src="https://user-images.githubusercontent.com/84816495/130869302-fd55fc84-a664-4901-b4aa-5e4b6a6e0d8d.png">
 
 The following code was used to get the results:
 ```
-jultemps = []
-jultemps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 7).all()
-jul_df = pd.DataFrame(jultemps, columns=['date','July Temperatures'])
+julpre = []
+julpre = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 7).all()
+jul_df = pd.DataFrame(julpre, columns=['date','July Precipitation'])
 jul_df.describe()
 ```
 
-_What is the temperature like in the month of August?_
+_What is the precipitation like in the month of August?_
 
-<img width="188" alt="Screen Shot 2021-08-25 at 5 41 57 PM" src="https://user-images.githubusercontent.com/84816495/130868611-059ecda9-a6cb-4f4d-a7a9-afd030726cd2.png">
+<img width="180" alt="Screen Shot 2021-08-25 at 5 51 01 PM" src="https://user-images.githubusercontent.com/84816495/130869323-25501145-bdab-4a00-9b1f-5395c1dfbb97.png">
 
 The following code was used to get the results:
 ```
-augtemps = []
-augtemps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 8).all()
-aug_df = pd.DataFrame(augtemps, columns=['date','August Temperatures'])
+augpre = []
+augpre = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 8).all()
+aug_df = pd.DataFrame(augpre, columns=['date','August Precipitation'])
 aug_df.describe()
 ```
